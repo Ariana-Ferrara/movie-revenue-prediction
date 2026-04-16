@@ -120,6 +120,7 @@ Stored using `joblib` to avoid refitting during reruns.
 ---
 
 ## How to run the project
+Note: preprocessed datasets and saved models are not included in this repository due to file size. The notebooks document the full pipeline and all outputs.
 
 ### Option A — full pipeline 
 1. Run `Final_Notebook1_cleaning_and_EDA_Jan4.ipynb`
@@ -150,13 +151,6 @@ Modelling and NLP components additionally use:
 - `shap`, `dice_ml`
 - `bertopic`, `sentence_transformers`
 - `umap`, `hdbscan`
-
----
-
-## Notes for the grader
-- All file paths assume the external files are stored **locally in the same directory** as the notebooks.
-- Some modelling steps (e.g., hyperparameter tuning or embedding generation) are computationally intensive.  
-  To reduce runtime, **preprocessed datasets and trained models are provided** and loaded where possible.
 
 ---
 
